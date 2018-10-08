@@ -1,0 +1,349 @@
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url('../fonts/MuseoSansCyrl 100.otf');
+    src: url('../fonts/MuseoSansCyrl 100.otf') format('open-type'),
+    url('../fonts/MuseoSansCyrl 100 Italic.otf') format('open-type'),
+    url('../fonts/MuseoSansCyrl 300 Italic.otf') format('open-type'),
+    url('../fonts/MuseoSansCyrl 300.otf') format('open-type'),
+    url('../fonts/MuseoSansCyrl 900 Italic.otf') format('open-type'),
+    url('../fonts/MuseoSansCyrl 900.otf') format('open-type');
+    font-family: 'Natasha';
+    src: url('../fonts/Natasha.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Natasha.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Natasha.svg#Natasha') format('svg');
+    /* Legacy iOS */
+}
+
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+div,
+input,
+li,
+ul,
+button {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*    --- Хеадер ---     */
+
+.container {
+    width: 940px;
+    margin: 0px auto;
+}
+
+.header {
+    background: url(../img/forest-bg.png) center top/cover;
+    font-family: 'MuseoSansCyrl';
+    padding-bottom: 82px;
+}
+
+.heading {
+    padding-top: 47px;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.logo_span {
+    font-weight: 900;
+}
+
+.nav {
+    float: left;
+    margin-left: 177px;
+}
+
+.nav__menu {
+    list-style-type: none;
+}
+
+.menu__item {
+    float: left;
+    margin-right: 48px;
+}
+
+.menu__item:nth-child(3) {
+    margin-right: 0;
+}
+
+.menu__item_a {
+    font-size: 15px;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.mail {
+    float: right;
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #676765;
+
+}
+
+.h1 {
+    font-family: 'Natasha';
+    text-align: center;
+    font-size: 49px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 286px;
+}
+
+.h1_description {
+    font-size: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 19px;
+    color: #fff;
+}
+
+.header__circle-block {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 253px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 25px;
+}
+
+.h2 {
+    font-family: 'Natasha';
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+.about .container .h2 {
+    margin-top: 85px;
+    margin-bottom: 78px;
+}
+
+.about__block-bg {
+    width: 430px;
+    float: left;
+    margin-right: 50px;
+}
+
+.h3 {
+    font-family: 'Natasha';
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #888886;
+    margin: 0;
+}
+
+.about__block-paragraph {
+    font-size: 15px;
+    font-family: 'MuseoSansCyrl';
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.blocks {
+    float: left;
+}
+
+.about__merit {}
+
+.about__list {
+    list-style-type: none;
+}
+
+.list__item {
+    float: left;
+    margin-right: 56px;
+    margin-top: 20px;
+}
+
+.list__item:last-child {
+    margin-right: 0;
+}
+
+.list__rectangle {
+    background: url(../img/rectangle.png) no-repeat center center/cover;
+    width: 103px;
+    height: 103px;
+    text-align: center;
+    line-height: 103px;
+    font-size: 20px;
+    color: #204d15;
+}
+
+.list__text {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'MuseoSansCycl';
+    margin-top: 26px;
+}
+
+.about__contact {
+    margin-top: 68px;
+}
+
+.contact__list {
+    list-style-type: none;
+    float: left;
+    margin-right: 43px;
+}
+
+.contact__list_a {
+    text-decoration: none;
+    color: #204d15;
+    font-size: 14px;
+    border-bottom: 1px solid #becbbb;
+    line-height: 30px;
+}
+
+.contact__meil-me {
+    background: url(../img/avatar.png) no-repeat center left;
+    float: left;
+    height: 64px;
+    padding-left: 84px;
+    line-height: 64px;
+    color: #797a77;
+    margin-top: 15px;
+}
+
+.skills {
+    padding-top: 10px;
+}
+
+.skills__h2 {
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.skills__list {
+    list-style-type: none;
+}
+
+.skills__list_item {
+    float: left;
+    line-height: 61px;
+}
+
+.skills__list_item-restangle {
+    float: left;
+    background: url(../img/circle.png);
+    height: 61px;
+    width: 61px;
+    text-align: center;
+    color: #204d15;
+    font-size: 13px;
+    margin-right: 26px;
+}
+
+.skills__list_item-text {
+    float: left;
+    font-size: 15px;
+    font-family: 'MuseoSansCyrl';
+    color: #4b4c47;
+    font-weight: 900;
+    width: 152px;
+    text-transform: uppercase;
+}
+
+.skills__list_item-text-last {
+    width: 54px;
+}
+
+.works__h2 {
+    margin-top: 83px;
+    margin-bottom: 60px;
+}
+
+.works__exemple {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    width: 299px;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.works__img {
+    position: relative;
+}
+
+.works__exemple:last-child {
+    margin-right: 0;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all ease 0.6s;
+    padding-top: 130px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.works__exemple:hover .overlay {
+    opacity: 1;
+}
+
+.overlay__p {
+    margin-bottom: -10px;
+}
+
+.overlay__a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1px;
+}
+
+.footer {
+    height: 225px;
+}
+
+.footer__copy {
+    font-family: 'MuseoSansCyrl';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 225px;
+    color: #888886;
+}

@@ -1,0 +1,141 @@
+/* Планшеты Tablets */
+
+@media screen and (max-width: 960px) {
+    .container {
+        width: 90%;
+    }
+    .nav {
+        margin-left: 10%;
+    }
+    .h2 {
+        text-align: center;
+    }
+    .h3 {
+        text-align: center;
+    }
+    about__block-bg {
+
+        width: 100%;
+    }
+    .blocks {
+        width: 100%;
+    }
+    .about__merit {
+        width: 100%;
+    }
+    .about__list {
+        width: 100%;
+    }
+    .list__item {
+        margin-right: 5%;
+        width: 30%;
+    }
+    .list__rectangle {
+        margin: 0 auto;
+    }
+    .about__block-bg {
+        width: 100%;
+    }
+    .about__contact {
+        width: 450px;
+        margin: 68px auto 0;
+    }
+    .skills__list {
+        width: 600px;
+        margin: 0 auto;
+        margin-left: 115px;
+    }
+    .skills__list_item:nth-child(2) {
+        float: right;
+    }
+    .skills__list_item:nth-child(3) {
+        margin-top: 15px;
+    }
+    .skills__list_item:nth-child(4) {
+        margin-top: 15px;
+        float: right;
+        width: 239px;
+    }
+    .works__exemples {
+        width: 650px;
+        margin: 0 auto;
+    }
+    .works__exemple:nth-child(2) {
+        margin-right: 0;
+    }
+    .works__exemple:last-child {
+        float: none;
+        margin: 310px auto 0;
+    }
+    .footer__copy {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+/* Мобильные Mobile */
+
+@media screen and (max-width: 728px) {
+    .nav {
+        display: none;
+    }
+    .contact__list {
+        float: none;
+        width: 150px;
+        margin: 0 auto;
+    }
+    .contact__meil-me {
+        background: url(../img/avatar.png) no-repeat top center;
+        float: none;
+        height: 124px;
+        padding-top: 60px;
+        padding-left: 0;
+        width: 200px;
+        margin: 15px auto 0;
+    }
+    .header__circle-block{
+        display: none;
+    }
+    .about__contact {
+        width: 100%;
+    }
+    .skills__list {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .skills__list_item {
+        float: none;
+        width: 230px;
+        margin: 0 auto;
+        height: 107px;
+    }
+    .skills__list_item:nth-child(2){
+        float: none;
+    }
+    .skills__list_item:nth-child(4){
+        float: none;
+    }
+    .skills__list_item-restangle {
+        margin: 0 auto;
+        float: none;
+    }
+    .skills__list_item-text {
+        text-align: center;
+        margin: -15px auto 0;
+        width: 230px;
+    }
+    .works__exemples {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .works__exemple {
+        float: none;
+        margin: 10px auto 0px;
+    }
+    .works__exemple:nth-child(2) {
+        margin-right: auto;
+    }
+    .works__exemple:last-child {
+        float: none;
+        margin: 10px auto 0px;
+    }
